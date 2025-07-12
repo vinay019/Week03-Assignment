@@ -5,33 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js" defer></script>
   </head>
-  <audio id="IntroBanger" controls autoplay>
-    <source
-      src="https://www.youtube.com/watch?v=RH5DpBU5ohk"
-      type="audio/mkv"
-    />
+  <audio id="IntroBanger" autoplay loop>
+    <source src="./files/the-it-crowd-theme.mp3" type="audio/mp3" />
   </audio>
+  <body>
+    <header>
+      <!-- <img src="./files/3dab565b997a9de19e6a46cde4719c32.jpg" alt="logo" /> -->
+      <h1>THE IT CROWD</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#cast">Cast</a>
+        <a href="#gif">GIFs</a>
+        <a href="https://www.youtube.com/@TheITCrowdChannel">YouTube</a>
+      </nav>
+    </header>
 
-  <header>
-    <h1>IT CROWD</h1>
-    <nav>
-      <p>HOME</p>
-      <p>ABOUT</p>
-      <p>WATCH NOW</p>
-      <p>CAST</p>
-      <p>REVIEWS</p>
-    </nav>
-  </header>
-  <body></body>
+    <section id="home">
+      <!-- img's can use external links pointing to images on the web   -->
+      <div class="wrap_image">
+        <img
+          src="./files/The_IT_Crowd_title_card.jpg"
+          class="imageresize"
+          alt="banner which reads IT Crowd"
+        />
+        <div class="overlay">
+          <h3>Have you tried turning if off and on again?</h3>
+          <h2>Want more of this?</h2>
+          <a
+            class="overlay_button"
+            href="https://www.channel4.com/programmes/the-it-crowd"
+            >WATCH NOW!</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="cast">
+      <!-- Or, images can be saved locally in our own folder. -->
+      <!-- Be very sure to structure your src like so, so that Github pages can find your image correctly -->
+      <div class="wrap_image">
+        <img
+          src="./files/it-crowd-banner.jpg"
+          class="imageresize"
+          alt="picture of the main cast members"
+        />
+        <div class="overlay">
+          <h3>
+            Roy and Moss, your IT heros and Jen your all knowing IT Manager
+          </h3>
+          <h2>Meet the Cast</h2>
+
+          <a
+            class="overlay_button"
+            href="https://www.imdb.com/title/tt0487831/fullcredits/?ref_=tt_ov_ql_1"
+            >FULL CAST</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="gif">
+      <div class="wrap_image">
+        <img
+          src="./files/tumblr_mhkpmo0G8l1s4mva2o1_500.gif"
+          class="imageresize"
+          alt="funny gif"
+        />
+        <div class="overlay">
+          <h3>Meet Mr Reynholm, Douglas Reynholm</h3>
+          <h2>Need we say more?</h2>
+          <a class="overlay_button" href="https://giphy.com/explore/it-crowd">
+            MORE GIFS</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
   <footer>
-    Contact us via our Social Media Channels
-
-    <a href="https://instagram.com">
-      <img
-        src="https://scontent-lhr8-1.xx.fbcdn.net/v/t39.2365-6/458971466_433154499741175_6962021715663093697_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=56e-fNWRQbEQ7kNvwEeGZu_&_nc_oc=AdkPzimN0vl4-IErPkGsIUUt7fqOJ1A643dQiN6LV4yhkww1idwQg2cZAJzilyWhPjQ&_nc_zt=14&_nc_ht=scontent-lhr8-1.xx&_nc_gid=6EvMMmE2mi_qJ8qUzJ2uyw&oh=00_AfMJZe3wzZwDOWqdP2o5dUXbGDm-71kicH5rsdUc5t6IVw&oe=6875040E"
-      />
+    Follow us:
+    <a href="https://www.youtube.com/@TheITCrowdChannel">
+      <img src="./files/icons8-youtube-50.png" />
+    </a>
+    <a href="https://www.instagram.com/theitcrowd__/?hl=en-gb">
+      <img src="./files/icons8-instagram-50.png" />
+    </a>
+    <a href="https://www.facebook.com/p/The-IT-Crowd-100064782278264/">
+      <img src="./files/icons8-facebook-50.png" />
+    </a>
+    <a href="https://www.tiktok.com/@the.it.crowd">
+      <img src="./files/icons8-tiktok-50.png" />
     </a>
   </footer>
 </html>
